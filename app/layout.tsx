@@ -1,0 +1,68 @@
+import type { Metadata } from "next";
+import { Geist, Geist_Mono, Pacifico } from "next/font/google";
+import Script from "next/script";
+import "./globals.css";
+import { DateProvider } from "./context/dateContext";
+import FacebookPixel from "@/components/FacebookPixel";
+import { Suspense } from "react";
+import NavbarWrapper from "@/components/hotel/NavbarWrapper";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+const pacifico = Pacifico({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-pacifico",
+});
+
+export const metadata: Metadata = {
+  title: "Hotel Prince Diamond",
+  icons: {
+    icon: "/logo-white.png",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <head>
+        {/* Microsoft Clarity Analytics */}
+       {
+        process.env.NODE_ENV === 'production' && (
+           <Script id="microsoft-clarity-init" strategy="afterInteractive">
+          {`
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "uv4ojr0r46");
+          `}
+        </Script>
+        )
+       }
+      </head>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}
+      >
+        <DateProvider>
+          <NavbarWrapper>{children}</NavbarWrapper>
+        </DateProvider>
+
+        <Suspense fallback={null}>
+          <FacebookPixel />
+        </Suspense>
+      </body>
+    </html>
+  );
+}
