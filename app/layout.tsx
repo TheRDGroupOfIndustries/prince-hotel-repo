@@ -23,9 +23,9 @@ const pacifico = Pacifico({
 });
 
 export const metadata: Metadata = {
-  title: "Hotel Prince Diamond",
+  title: "Hotel Prince Diamond Palace",
   icons: {
-    icon: "/logo-white.png",
+    icon: "/images/logoimage.png",
   },
 };
 

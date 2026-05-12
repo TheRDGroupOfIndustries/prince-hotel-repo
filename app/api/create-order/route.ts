@@ -68,7 +68,7 @@ export async function POST(request: NextRequest) {
     }
 
     const booking = new Booking({
-      hotelName: "Hotel Prince Diamond Varanasi",
+      hotelName: "Hotel Prince Diamond Palace Varanasi",
       // ✨ Save the roomId and numberOfRooms to the final booking record
       roomId: quote.roomId,
       roomName: quote.roomName,

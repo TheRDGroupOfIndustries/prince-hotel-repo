@@ -10,8 +10,8 @@ export const FooterContent: React.FC = () => {
       {/* About Column */}
       <FooterColumn
         variant="about"
-        title="Hotel Prince Diamond"
-        logoSrc="/logo-white.png"
+        title="Hotel Prince Diamond Palace"
+        logoSrc="/images/logoimage.png"
         description="Experience luxury and comfort in the heart of Varanasi, near the sacred Kashi Vishwanath Temple."
         socialLinks={[
           { href: "#", icon: <Facebook size={18} /> },

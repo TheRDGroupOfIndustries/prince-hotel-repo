@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Text */}
         <div className="mt-8 border-t border-gray-800 pt-8 text-center text-gray-400">
           <p>
-            © 2025 Hotel Prince Diamond. All rights reserved. 
+            © 2025 Hotel Prince Diamond Palace. All rights reserved. 
           </p>
         </div>
       </div>

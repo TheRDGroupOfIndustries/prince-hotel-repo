@@ -94,7 +94,7 @@ export default function BookingSuccessContent() {
               Thank You for Your Booking!
             </h2>
             <p className="text-gray-600 mt-2">
-              We are delighted to have you stay with us at Hotel Prince Diamond.
+              We are delighted to have you stay with us at Hotel Prince Diamond Palace.
             </p>
             {bookingDetails.email && (
               <p className="text-gray-600 mt-1 text-sm">

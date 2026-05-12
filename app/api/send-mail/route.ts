@@ -59,7 +59,7 @@ export async function POST(req: Request) {
       <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.6;">
         <h2 style="color: #007bff;">Booking Confirmation</h2>
         <p>Dear ${name},</p>
-        <p>Thank you for booking with <strong>Hotel Prince Diamond Varanasi</strong>.</p>
+        <p>Thank you for booking with <strong>Hotel Prince Diamond Palace Varanasi</strong>.</p>
 
         <div style="background: #f9f9f9; padding: 16px; border-radius: 8px; margin-top: 12px;">
           <p><strong>Room:</strong> ${roomName}</p>
@@ -77,13 +77,13 @@ export async function POST(req: Request) {
 
         <p style="margin-top: 24px;">
           Warm regards,<br/>
-          <strong>Hotel Prince Diamond</strong>
+          <strong>Hotel Prince Diamond Palace</strong>
         </p>
       </div>
     `;
 
     await transporter.sendMail({
-      from: `"Hotel Prince Diamond" <${process.env.EMAIL_USER}>`,
+      from: `"Hotel Prince Diamond Palace" <${process.env.EMAIL_USER}>`,
       to: email,
       subject: `Booking Confirmation - ${roomName}`,
       html,

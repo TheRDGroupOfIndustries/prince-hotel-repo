@@ -2,7 +2,7 @@ import type { HotelMeta } from "@/types/hotel";
 
 export const HOTEL_PRINCE_DIAMOND: HotelMeta = {
   id: "hotel-prince-diamond",
-  name: "Hotel Prince Diamond ",
+  name: "Hotel Prince Diamond Palace",
   city: "Varanasi",
   country: "India",
   rating: 4.6,
@@ -12,7 +12,7 @@ export const HOTEL_PRINCE_DIAMOND: HotelMeta = {
   currency: "INR",
   addressLine: "Sigra, Varanasi, Uttar Pradesh",
   aboutText:
-    "Prince Diamond Hotel — the best hotel in Varanasi for families. Book your stay for modern comforts, attentive service, and quick access to Kashi Vishwanath Temple.",
+    "Hotel Prince Diamond Palace — the best hotel in Varanasi for families. Book your stay for modern comforts, attentive service, and quick access to Kashi Vishwanath Temple.",
   nearestLandmark: {
     name: "Kakarmata",
     blurb: "4.4 km drive to Kashi Vishwanath Temple",
@@ -46,7 +46,7 @@ export const HOTEL_PRINCE_DIAMOND: HotelMeta = {
       "Local law compliant; certain restrictions may apply.",
     ],
   },
-  logo: "/images/prince-logo.png",
+  logo: "/images/logoimage.png",
   roomTypes: [
     {
       id: "deluxe",

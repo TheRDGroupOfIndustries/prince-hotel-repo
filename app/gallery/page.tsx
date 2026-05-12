@@ -218,12 +218,16 @@ export default function GalleryPage() {
       // "/images/gallery/DJI_20250913180008_0791_D.jpg",
       // "/images/gallery/DJI_20250913180032_0792_D.jpg",
       // "/images/gallery/DJI_20250913180055_0794_D.jpg",
+      "/DSC01099.jpg",
       "/images/gallery/DSC_1305-Edit-2.jpg",
       "/images/gallery/DSC_1311-HDR.jpg",
+      "/DSC01113.jpg",
       "/images/gallery/DSC_1314-HDR.jpg",
       "/images/gallery/DSC_1317-HDR.jpg",
+      "/DSC01123.jpg",
       "/images/gallery/DSC_1320-HDR.jpg",
       "/images/gallery/DSC_1326-HDR.jpg",
+      "/DSC_4893.jpg",
       "/images/gallery/DSC_1330-Edit.jpg",
       "/images/gallery/DSC_1332-HDR-3.jpg",
       "/images/gallery/DSC_1338-HDR-2.jpg",
@@ -263,10 +267,10 @@ export default function GalleryPage() {
       {/* Header */}
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-3">
-          Hotel Prince Diamond <span className="text-blue-600">Gallery</span>
+          Hotel Prince Diamond Palace <span className="text-blue-600">Gallery</span>
         </h1>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          Discover the elegance, comfort, and luxury of Hotel Prince Diamond
+          Discover the elegance, comfort, and luxury of Hotel Prince Diamond Palace
           through our curated collection of photos.
         </p>
       </div>
@@ -286,7 +290,7 @@ export default function GalleryPage() {
             >
               <Image
                 src={src}
-                alt={`Hotel Prince Diamond photo ${index + 1}`}
+                alt={`Hotel Prince Diamond Palace photo ${index + 1}`}
                 width={600}
                 height={400}
                 loading="lazy"

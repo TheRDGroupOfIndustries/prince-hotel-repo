@@ -12,10 +12,10 @@ export const WelcomeSection: React.FC = () => {
           {/* Text Content */}
           <div>
             <h3 className="mb-6 text-3xl font-bold leading-9 text-gray-900">
-              Welcome to Hotel Prince Diamond
+              Welcome to Hotel Prince Diamond Palace
             </h3>
             <p className="mb-6 text-lg leading-relaxed text-gray-600">
-              Prince Diamond Hotel — the best hotel in Varanasi for families.
+              Hotel Prince Diamond Palace — the best hotel in Varanasi for families.
               Book your stay for modern comforts, attentive service, and quick
               access to Kashi Vishwanath Temple. Experience the perfect blend of
               traditional hospitality and contemporary luxury in the spiritual

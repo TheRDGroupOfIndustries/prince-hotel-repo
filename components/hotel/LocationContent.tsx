@@ -14,7 +14,7 @@ export const LocationContent: React.FC = () => {
       <div className="overflow-hidden rounded-lg shadow-lg">
         <iframe
           src="https://www.google.com/maps?q=25.3176,82.9739&hl=en&z=15&output=embed"
-          title="Hotel Prince Diamond Location"
+          title="Hotel Prince Diamond Palace Location"
           className="h-96 w-full border-0"
           loading="lazy"
           allowFullScreen
