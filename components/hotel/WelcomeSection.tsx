@@ -41,28 +41,28 @@ export const WelcomeSection: React.FC = () => {
               width={400}
               height={300}
               alt="Hotel lobby"
-              src="/princehotel3.jpg"
+              src="/images/lobby 2.jpeg"
               className="h-48 w-full rounded-lg object-cover"
             />
             <Image
               width={400}
               height={300}
               alt="Hotel room"
-              src="/princehotel2.jpg"
+              src="/images/room 1.jpg"
               className="h-48 w-full rounded-lg object-cover"
             />
             <Image
               width={400}
               height={300}
               alt="Hotel amenities"
-              src="/sd2.jpg"
+              src="/images/amenities.jpg"
               className="h-48 w-full rounded-lg object-cover"
             />
             <Image
               width={400}
               height={300}
               alt="Hotel exterior"
-              src="/sd6.jpg"
+              src="/images/lobby 3.jpeg"
               className="h-48 w-full rounded-lg object-cover"
             />
           </div>
