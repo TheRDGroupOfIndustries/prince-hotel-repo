@@ -7,7 +7,7 @@
 //       <div className="box-border caret-transparent max-w-screen-xl mx-auto px-4 md:px-8">
 //         <SectionHeader
 //           title="Prime Location"
-//           description="Strategically located in Kakarmata, just 4.4 km from the famous Kashi Vishwanath Temple."
+//           description="Strategically located near Banaras Railway Station Gate No. 1, just 6.1 km from the famous Kashi Vishwanath Temple."
 //         />
 //         <LocationContent />
 //       </div>
@@ -29,7 +29,7 @@ export const LocationSection: React.FC = () => {
         {/* Section Header */}
         <SectionHeader
           title="Prime Location"
-          description="Strategically located in Kakarmata, just 4.4 km from the famous Kashi Vishwanath Temple."
+          description="Strategically located near Banaras Railway Station Gate No. 1, just 6.1 km from the famous Kashi Vishwanath Temple."
         />
 
         {/* Location Content */}

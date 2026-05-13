@@ -10,12 +10,12 @@ export const HOTEL_PRINCE_DIAMOND: HotelMeta = {
   reviewCount: 128,
   startingPrice: 1677,
   currency: "INR",
-  addressLine: "Sigra, Varanasi, Uttar Pradesh",
+  addressLine: "Banaras railway station Gate No. 1, Varanasi, Uttar Pradesh",
   aboutText:
     "Hotel Prince Diamond Palace — the best hotel in Varanasi for families. Book your stay for modern comforts, attentive service, and quick access to Kashi Vishwanath Temple.",
   nearestLandmark: {
-    name: "Kakarmata",
-    blurb: "4.4 km drive to Kashi Vishwanath Temple",
+    name: "Banaras Railway Station Gate No. 1",
+    blurb: "6.1 km drive to Kashi Vishwanath Temple",
   },
   heroPhotos: [
     "/images/building 1.jpg",

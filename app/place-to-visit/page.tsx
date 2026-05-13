@@ -34,7 +34,7 @@ export default function PlacesToVisitPage() {
       title: "1. Kashi Vishwanath Temple",
       description:
         "Dedicated to Lord Shiva, this temple is one of the 12 Jyotirlingas. Early mornings are the best time for darshan. VIP Darshan available.",
-      distance: "Approx. 6 km from Hotel Prince Diamond Palace.",
+      distance: "Approx. 6.1 km from Hotel Prince Diamond Palace.",
     },
     {
       img: "/images/Dashashwamedh.webp",
@@ -133,9 +133,9 @@ export default function PlacesToVisitPage() {
           Contact us and leave all your travel worries behind!
         </p>
         <p className="mt-3 text-lg font-medium">
-          Address: 217/3 F, DLW Rd, Dakshini, Bajardih, Varanasi
+          Address: Banaras Railway Station Gate No. 1, Varanasi, Uttar Pradesh
         </p>
-        <p className="mt-1 text-lg font-medium">Contact: +91 9695981555</p>
+        <p className="mt-1 text-lg font-medium">Contact: +91 7905551322</p>
       </div>
 
       <p className="mt-10 text-lg leading-relaxed">

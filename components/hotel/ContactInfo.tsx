@@ -10,13 +10,13 @@ export const ContactInfo: React.FC = () => {
       <ContactItem
         icon={<MapPin />}
         title="Address"
-        content="Kakarmata, Varanasi, Uttar Pradesh, India"
+        content="Banaras Railway Station Gate No. 1, Varanasi, Uttar Pradesh, India"
       />
 
       <ContactItem
         icon={<Phone />}
         title="Phone"
-        content="+91 96959 81555"
+        content="+91 79055 51322"
         showMarginTop
       />
 
