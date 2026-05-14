@@ -24,7 +24,7 @@ export const HOTEL_PRINCE_DIAMOND: HotelMeta = {
     "/images/room 1.jpg",
     "/images/room 2.jpg",
   ],
-  coordinates: { lat: 25.3176, lng: 82.9739 },
+  coordinates: { lat: 25.2982006, lng: 82.9728342 },
   amenitiesHighlights: [
     "Free Wi‑Fi",
     "Air Conditioning",
