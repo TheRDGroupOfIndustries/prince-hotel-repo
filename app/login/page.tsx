@@ -1,25 +1,23 @@
 "use client"
 
 import { useState } from "react"
-import { useRouter } from "next/navigation"
 import { Button } from "@/components/base/button"
 import { Card } from "@/components/base/card"
 
 export default function LoginPage() {
   const [password, setPassword] = useState("")
   const [error, setError] = useState("")
-  const router = useRouter()
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
     const res = await fetch("/api/auth/login", {
       method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ password }),
     })
 
     if (res.ok) {
-      router.push("/admin/rooms")
-      router.refresh() // Refresh to update middleware state
+      window.location.href = "/admin/rooms"
     } else {
       setError("Invalid Password")
     }
