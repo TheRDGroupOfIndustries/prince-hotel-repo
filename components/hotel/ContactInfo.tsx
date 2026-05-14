@@ -16,7 +16,7 @@ export const ContactInfo: React.FC = () => {
       <ContactItem
         icon={<Phone />}
         title="Phone"
-        content="+91 79055 51322"
+        content="+91 96959 53954"
         showMarginTop
       />
 
