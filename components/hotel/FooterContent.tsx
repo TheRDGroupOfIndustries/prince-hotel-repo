@@ -47,7 +47,7 @@ export const FooterContent: React.FC = () => {
           "Banaras Railway Station Gate No. 1",
           "Uttar Pradesh, India",
           "+91 96959 53954",
-          "info@princediamondhotel.com",
+           "hotelprincediamondpalace01@gmail.com",
         ]}
       />
     </div>

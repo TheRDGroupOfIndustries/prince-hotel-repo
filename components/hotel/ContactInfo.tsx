@@ -23,7 +23,7 @@ export const ContactInfo: React.FC = () => {
       <ContactItem
         icon={<Mail />}
         title="Email"
-        content="info@princediamondhotel.com"
+        content="hotelprincediamondpalace01@gmail.com"
         showMarginTop
       />
 
